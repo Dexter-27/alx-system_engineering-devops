@@ -1,0 +1,3 @@
+#!/bin/bash
+
+if [ -e olleh ]; then mode=$(stat -c "%a" olleh); chmod $mode hello; fi
